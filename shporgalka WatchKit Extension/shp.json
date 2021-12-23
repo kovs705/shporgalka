@@ -1,0 +1,37 @@
+{
+    "name": "годовой и суточный грузооборот",
+    "text": "Q=Тов/Сгр\nQсут = Q/То\nQуд = Q/Sскл""
+},
+{
+    "name": "складской объем хранения",
+    "text": "Q = 42,5т.р   txp = 15дн   g = 0,72т/кв.м  Тп = 280дн   Sшт = 3.6кв.м   Vшт = 12,4куб.м  Кип= 0,3 E = Q*txp/Тп    Vxp = E/g    Sскл = Vxp*Sшт/ (Vшт * Кип)\n Вывод: чтобы обеспечить хранение ___м3 товара предприятию понадобится склад площадью __м2."
+},
+{
+    "name": "MultiPolygon",
+    "text": ""
+},
+{
+    "name": "MultiPolygon",
+    "text": ""
+},
+{
+    "name": "MultiPolygon",
+    "text": ""
+},
+{
+    "name": "MultiPolygon",
+    "text": ""
+},
+
+{
+    "name": "MultiPolygon",
+    "text": ""
+},
+{
+    "name": "MultiPolygon",
+    "text": ""
+},
+{
+    "name": "MultiPolygon",
+    "text": ""
+}

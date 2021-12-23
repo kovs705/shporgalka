@@ -15,6 +15,8 @@
 		4E44769127752C5500E0998F /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E44769027752C5500E0998F /* ComplicationController.swift */; };
 		4E44769327752C5600E0998F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E44769227752C5600E0998F /* Assets.xcassets */; };
 		4E44769627752C5600E0998F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E44769527752C5600E0998F /* Preview Assets.xcassets */; };
+		4E4476A627752E2300E0998F /* shporgalkaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4476A527752E2300E0998F /* shporgalkaView.swift */; };
+		4E4476A92775301A00E0998F /* ShporaDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4476A82775301A00E0998F /* ShporaDecoder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,9 @@
 		4E44769227752C5600E0998F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E44769527752C5600E0998F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4E44769727752C5600E0998F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E4476A527752E2300E0998F /* shporgalkaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shporgalkaView.swift; sourceTree = "<group>"; };
+		4E4476A727752F3000E0998F /* shp.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = shp.json; sourceTree = "<group>"; };
+		4E4476A82775301A00E0998F /* ShporaDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShporaDecoder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +119,9 @@
 			isa = PBXGroup;
 			children = (
 				4E44768C27752C5500E0998F /* ContentView.swift */,
+				4E4476A727752F3000E0998F /* shp.json */,
+				4E4476A527752E2300E0998F /* shporgalkaView.swift */,
+				4E4476A82775301A00E0998F /* ShporaDecoder.swift */,
 				4E44768E27752C5500E0998F /* shporgalkaApp.swift */,
 				4E44769027752C5500E0998F /* ComplicationController.swift */,
 				4E44769227752C5600E0998F /* Assets.xcassets */,
@@ -259,7 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E44768D27752C5500E0998F /* ContentView.swift in Sources */,
+				4E4476A92775301A00E0998F /* ShporaDecoder.swift in Sources */,
 				4E44768F27752C5500E0998F /* shporgalkaApp.swift in Sources */,
+				4E4476A627752E2300E0998F /* shporgalkaView.swift in Sources */,
 				4E44769127752C5500E0998F /* ComplicationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

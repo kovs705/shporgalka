@@ -8,9 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var shporgalki = [Shpora]()
+    
+    
     var body: some View {
-        Text("Hello, World!")
-            .padding()
+        List {
+//            ForEach(shpora) { sporgalka in
+//                
+//            }
+        }
     }
 }
 
