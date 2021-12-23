@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Combine
 
 struct Shpora: Codable {
     var name: String
@@ -52,13 +53,11 @@ final class ImageStore {
 
     static func loadImage(name: String) -> CGImage {
         guard
-            let url = Bundle.main.url(forResource: name, withExtension: "jpg"),
-            let imageSource = CGImageSourceCreateWithURL(url as NSURL, nil),
-            let image = CGImageSourceCreateImageAtIndex(imageSource, 0, nil)
+            let image = Bundle.main.url(forResource: name, withExtension: "jpg")
         else {
             fatalError("Couldn't load image \(name).jpg from main bundle.")
         }
-        return image
+        return image as! CGImage
     }
     
     fileprivate func _guaranteeImage(name: String) -> _ImageDictionary.Index {
