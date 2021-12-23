@@ -12,15 +12,18 @@ final class UserData: ObservableObject {
 }
 
 struct ContentView: View {
-    
     var shporgalki = [Shpora]()
-    
+    @EnvironmentObject var userData: UserData
     
     var body: some View {
         List {
-//            ForEach(shpora) { sporgalka in
-//                
-//            }
+            ForEach(userData.shporgalki) { shpora in
+                NavigationLink(destination: shporgalkaView(shpora: shpora)) {
+                    Text(shpora.name)
+                }
+                // navlink
+            }
+            // foreach
         }
     }
 }

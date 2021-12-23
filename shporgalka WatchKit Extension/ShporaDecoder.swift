@@ -8,7 +8,8 @@
 import SwiftUI
 import Combine
 
-struct Shpora: Codable {
+struct Shpora: Codable, Identifiable {
+    let id: UUID
     var name: String
     var text: String
 }
